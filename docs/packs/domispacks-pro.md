@@ -1,6 +1,6 @@
 ---
 title: DomisPacks Pro - Produção Completa - Em Desenvolvimento
-description: SaaS Boilerplate Next.js 15 + Stripe + Rules + CI/CD + Dashboard - Em Desenvolvimento
+description: SaaS Boilerplate Next.js 15 + Stripe + Rules + CI/CD + Dashboard - R$197 Em Desenvolvimento
 next:
   text: 'Vitrine - &nbsp;Todos os Packs'
   link: '/packs/'
@@ -42,7 +42,7 @@ Status: `EM BREVE.`
 | `storage.rules` seguro                                        | ❌         | ✅ avançada      |
 | `GitHub Actions` - Auto Deploy                                | ❌         | ✅               |
 | `Cloud Functions` - `kiwifyWebhook` , `verifyProKey` , `ping` | ❌         | ✅ Node 22       |
-| `Stripe Checkout` + `Webhook` + `Firebase Killer`             | ❌         | ✅               |
+| `Stripe Checkout` + `Webhook` + `Customer Portal`             | ❌         | ✅               |
 | Headers de Segurança: `HSTS` e `CSP`                          | ✅         | ✅               |
 | `Dashboard SaaS Premium`                                      | ❌         | ✅               |
 
@@ -182,7 +182,7 @@ Sim. Seguem checklist oficial Firebase. Nenhum if true. Teste com emulators ante
 Perfeito. O Pro não cria projeto novo, só injeta `.rules` e `firebase.json` otimizado com source: "." + headers. Roda firebase deploy e pronto.
 :::
 
-<h2>💎 Comprar DomisPacks Pro:&nbsp;<code>EM DESENVOLVIMENTO</code></h2>
+<h3>💎 DomisPacks Pro:&nbsp;<code>EM DESENVOLVIMENTO - R$197</code></h3>
 
 <div style="
   margin: 24px 0; 
@@ -231,7 +231,7 @@ Perfeito. O Pro não cria projeto novo, só injeta `.rules` e `firebase.json` ot
     color: #9ca3af !important; 
     font-size: 12px; 
     margin-top: 12px;"
-  > 📦 Botão desabilitado até finalizar <code>Stripe</code> + <code>Functions: Node 22</code> , &nbsp;<code>getSignedUrl 5min</code>
+  > 📦 Botão desabilitado até finalizar <code>Stripe</code> + <code>Functions → Node 22</code> , &nbsp;<code>getSignedUrl 5min.</code>
   </p>
 </div>
 

@@ -35,7 +35,7 @@ Packs disponíveis em: &nbsp;`packs` na Plataforma:
 
 - Lite: `Next.js 15` + `SaaS Boilerplate` → base limpa para começar
 - Pro: Tudo do Lite + 
-> `CI/CD` + `Rules` + `Stripe Checkout` + `Firebase Killer` + liberação via Kiwify com: 
+> `CI/CD` + `Rules` + `Stripe Checkout` + `Customer Portal` + liberação via Kiwify com: 
 >
 > `PRO_KEY` → `EM DESENVOLVIMENTO`
 
@@ -71,7 +71,7 @@ Tudo do Lite +
 - `GitHub Actions` - Auto Deploy → git push = deploy.
 - `Cloud Functions v2` `Node 22` - `Webhook Kiwify` + validação `PRO_KEY` com: &nbsp;&nbsp;`getSignedUrl 5min` + `POST only.`
 - Headers de Segurança: `HSTS` e `CSP.`
-- SaaS Boilerplate: `Next.js 15` + `Tailwind v4` + `Stripe` + `PRO_KEY` → &nbsp;&nbsp;Automática + `Dashboard Premium.`
+- SaaS Boilerplate: `Next.js 15` + `Tailwind v4` + `Stripe Checkout` + `Customer Portal` + `PRO_KEY` → &nbsp;&nbsp;Automática + `Dashboard Premium.`
 
 > 📌 Status: 
 >
@@ -90,7 +90,7 @@ Tudo do Lite +
 | `firestore.rules` + `storage.rules` seguro | ❌         | ✅                 |
 | `GitHub Actions` , `CI/CD`                 | ❌         | ✅                 |
 | `Functions` + `Webhook Kiwify` + `PRO_KEY` | ❌         | ✅                 |
-| `Stripe Checkout` + `Firebase Killer`      | ❌         | ✅                 |
+| `Stripe Checkout` + `Customer Portal`      | ❌         | ✅                 |
 | Headers de Segurança: `HSTS` e `CSP`       | ✅         | ✅                 |
 | Dashboard SaaS Premium                     | ❌         | ✅                 |
 

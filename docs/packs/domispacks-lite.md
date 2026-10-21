@@ -1,6 +1,6 @@
 ---
 title: DomisPacks Lite - Next.js 15 Starter
-description: Boilerplate Next.js 15 + SaaS Boilerplate
+description: SaaS Boilerplate -  Next.js 15 + SaaS Boilerplate R$49
 next:
   text: "💎 DomisDocs Pro - &nbsp; Em Breve"
   link: '/packs/domispacks-pro'
@@ -146,7 +146,7 @@ npm create domis@latest
 <h2>FAQ:</h2>
 
 ::: details Funciona no `Next.js 15` com `App Router` ❓
-Sim. Validado no `Next.js 15` com `App Router` + `Turbopack`&nbsp;. O `firebase.json` já vem com source: "." para Frameworks - sem rewrites SPA.
+Sim. Validado no `Next.js 15` com `App Router` + `Turbopack`&nbsp;. O `firebase.json` já vem com source: "." para Frameworks → sem `rewrites SPA.`
 :::
 
 ::: details Como recebo o acesso ❓
@@ -160,8 +160,8 @@ Você paga na Kiwify e recebe sua `PRO_KEY` por e-mail na hora , junto com o ace
 :::
 
 ::: details Qual a diferença para o Pro ❓
-- Lite = `Next.js 15` Starter + deploy otimizado: `firebase.json` com `source: "."` Frameworks + `headers` otimizados (sem rewrites SPA).
-- Pro = Lite + `firestore.rules` segura avançada + `storage.rules` 5MB + MIME + `CI/CD` + `Stripe` + `Kiwify Webhook` + `Dashboard SaaS`
+- Lite = `Next.js 15` Starter + deploy otimizado: `firebase.json` com `source: "."` Frameworks + `headers` otimizados - sem rewrites SPA.
+- Pro = Lite + `firestore.rules` segura avançada + `storage.rules` 5MB + MIME + `CI/CD` + `Stripe Checkout` + `Customer Portal` + `Kiwify Webhook` + `Dashboard SaaS`
 :::
 
 <h2>Comparativo:</h2>
@@ -173,7 +173,7 @@ Você paga na Kiwify e recebe sua `PRO_KEY` por e-mail na hora , junto com o ace
 | `firestore.rules` seguro                  | ❌                |
 | `storage.rules`                           | ❌                |
 | `GitHub Actions`                          | ❌                |
-| `Functions` + `Stripe`                    | ❌                |
+| `Functions` + `Stripe Checkout`           | ❌                |
 
 
 <h2>💬 O que quem comprou está dizendo:</h2>
@@ -294,7 +294,7 @@ Você paga na Kiwify e recebe sua `PRO_KEY` por e-mail na hora , junto com o ace
 &nbsp;
 
 ::: tip Quer produção completa?
-Conheça o Pro - EM BREVE com: &nbsp;`Rules` + `CI/CD` + `Stripe` + `Dashboard.` 
+Conheça o Pro - EM BREVE com: &nbsp;`Rules` + `CI/CD` + `Stripe Checkout` + `Customer Portal` + `Dashboard Premium.` 
 > Veja em [DomisPacks Pro →](/packs/domispacks-pro) &nbsp;`EM BREVE`
 :::
 
