@@ -11,9 +11,8 @@ export default defineConfig({
     outline: { level: [2, 3], label: 'Nesta página' },
     logo: '/images/premium-512.png',
     nav: [
-      { text: 'Início', link: '/' },
       { text: '📖 Documentação Técnica', link: '/guia/' },
-      { text: '🛒 DomisPacks', link: '/packs/' }
+      { text: '🛒 Packs Premium', link: '/packs/' }
     ],
     sidebar: {
       '/guia/': [
@@ -56,7 +55,7 @@ export default defineConfig({
       ],
       '/packs/': [
         {
-          text: '🛒 DomisPacks Premium',
+          text: '🛒 Packs Premium',
           items: [
             { text: 'Vitrine Tecnica', link: '/packs/' },
             { text: 'DomisPacks Lite', link: '/packs/domispacks-lite' },

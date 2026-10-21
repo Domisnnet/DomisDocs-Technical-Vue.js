@@ -51,7 +51,9 @@ Resolve:
 - 404 on refresh nas rotas SPA
 - `firebase.json` com Frameworks source: "." + headers + cache 1 ano
 
-> Ideal para: Subir projeto hoje em 5 minutos e já começar SaaS `Next.js 15` + `Tailwind v4` + `shadcn/ui`
+> Ideal para: &nbsp;Subir o projeto hoje em 5 minutos e já começar a usar o SaaS com: 
+>
+> `Next.js 15` + `Tailwind v4` + `shadcn/ui` → básico e limpo para começar.
 
 Entrega: Via `PRO_KEY` + &nbsp;`npm create domis@latest`
 
@@ -74,8 +76,6 @@ Tudo do Lite +
 > 📌 Status: 
 >
 > Em desenvolvimento → Lançamento em breve. 
->
-> `Stripe` + `Functions → Node 22.`
 
 
 [💎 Ver Roadmap do Pro →](/packs/domispacks-pro)
@@ -86,7 +86,7 @@ Tudo do Lite +
 | Recurso:                                   | Lite:      | Pro: &nbsp;Em Breve |
 | :----------------------------------------- | :---------:| :------------------ |
 | Fix public directory + 404 + Headers 1 ano | ✅         | ✅                 |
-| `Next.js 15` + `Tailwind v4` + `shadcn`    | ✅ Starter | ✅ SaaS Completo   |
+| `Next.js 15` + `Tailwind v4` + `shadcn/ui` | ✅ Starter | ✅ SaaS Completo   |
 | `firestore.rules` + `storage.rules` seguro | ❌         | ✅                 |
 | `GitHub Actions` , `CI/CD`                 | ❌         | ✅                 |
 | `Functions` + `Webhook Kiwify` + `PRO_KEY` | ❌         | ✅                 |
