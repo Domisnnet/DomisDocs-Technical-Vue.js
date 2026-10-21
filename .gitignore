@@ -2,6 +2,7 @@
 .firebase/
 firebase-debug.log
 firestore-debug.log
+.vscode/
 .agents/
 skills-lock.json
 .muse/
