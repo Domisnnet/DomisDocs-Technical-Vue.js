@@ -46,7 +46,7 @@ Resolve:
 
 - Could not find public directory: dist/seu-app/browser
 - 404 on refresh nas rotas SPA
-- firebase.json com Frameworks + headers + cache
+- firebase.json com Frameworks source: "." + headers + cache 1 ano
 - `Next.js 15` + `Tailwind v4` + `shadcn/ui` + `Firebase Hosting Frameworks`
 
 > Ideal para: Subir projeto hoje em 5 minutos e já começar SaaS em `Next.js 15.`
@@ -63,9 +63,9 @@ Entrega: Via `PRO_KEY` + &nbsp;`npm create domis@latest`
 
 Tudo do Lite +
 
-- `firestore.rules` + `storage.rules` seguros (produção)
+- `firestore.rules` + `storage.rules` seguros (produção - sem if true)
 - `GitHub Actions` - Auto Deploy (git push = deploy)
-- `Cloud Functions v2` `Node 22` - `Webhook Kiwify` + validação `PRO_KEY` com `getSignedUrl` 5min
+- `Cloud Functions v2` `Node 22` - `Webhook Kiwify` + validação `PRO_KEY` com `getSignedUrl` 5min POST only
 - Headers de Segurança HSTS, CSP
 - SaaS Boilerplate `Next.js 15` + `Tailwind v4` + `Stripe` + `PRO_KEY` Automática + `Dashboard Premium`
 
@@ -77,17 +77,16 @@ Tudo do Lite +
 
 <h2>Comparativo:</h2>
 
-| Recurso | Lite R$49 | Pro R$197 Em Breve |
-| :--- | :---: | :--- |
-| Fix public directory + SPA Rewrite         | ✅ | ✅ |
-| Cache 1 ano                                | ✅ | ✅ |
-| `Next.js 15` + `Tailwind v4` + `shadcn`    | ✅ Starter | ✅ SaaS Completo |
-| `firestore.rules` + `storage.rules` seguro | ❌ | ✅ |
-| `GitHub Actions` `CI/CD`                   | ❌ | ✅ |
-| `Functions` + `Webhook Kiwify` + `PRO_KEY` | ❌ | ✅ |
-| `Stripe Checkout` + Customer Portal        | ❌ | ✅ |
-| Headers Segurança                          | ✅ | ✅ |
-| Dashboard SaaS Premium                     | ❌ | ✅ |
+| Recurso                                    | Lite R$49  | Pro R$197 Em Breve |
+| :----------------------------------------- | :---------:| :----------------- |
+| Fix public directory + 404 + Headers 1 ano | ✅         | ✅                |
+| `Next.js 15` + `Tailwind v4` + `shadcn`    | ✅ Starter | ✅ SaaS Completo  |
+| `firestore.rules` + `storage.rules` seguro | ❌         | ✅                |
+| `GitHub Actions` `CI/CD`                   | ❌         | ✅                |
+| `Functions` + `Webhook Kiwify` + `PRO_KEY` | ❌         | ✅                |
+| `Stripe Checkout` + Customer Portal        | ❌         | ✅                |
+| Headers Segurança HSTS                     | ✅         | ✅                |
+| Dashboard SaaS Premium                     | ❌         | ✅                |
 
 ---
 
