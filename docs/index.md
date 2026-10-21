@@ -37,7 +37,6 @@ features:
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #60A5FA 10%, #8B5CF6 50%, #6D28D9 90%);
 }
-
 .VPHomeHero .name {
   font-size: 76px !important;
   line-height: 0.9 !important;
@@ -48,14 +47,12 @@ features:
   -webkit-text-fill-color: transparent !important;
   background-clip: text !important;
 }
-
 .VPHomeHero .text {
   font-size: 42px !important;
   line-height: 1.1 !important;
   font-weight: 600 !important;
   margin-top: 16px !important;
 }
-
 .VPHomeHero .VPButton.brand {
   background: linear-gradient(135deg, #26FF00, #00D4FF) !important;
   color: #000 !important;
@@ -63,13 +60,11 @@ features:
   border: none !important;
   box-shadow: 0 4px 14px 0 rgba(38, 255, 0, 0.39) !important;
 }
-
 .VPHomeHero .VPButton.alt {
   background: #2D2D2D !important;
   color: #fff !important;
   border: 2px solid #3a3a3a !important;
 }
-
 @media (max-width: 960px) {
   .VPHomeHero .name { font-size: 48px !important; }
   .VPHomeHero .text { font-size: 28px !important; }
