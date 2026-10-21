@@ -17,7 +17,7 @@ prev: false
 
 <h1>🛒 Packs Premium - Next.js 15 + SaaS Boilerplate</h1>
 
-> **Vitrine Pública:** &nbsp;`DomisDocs-Technical` → &nbsp;Documentação Open Source + `Firebase`. 
+> **Vitrine Pública:** &nbsp;`DomisDocs-Technical` → &nbsp;Documentação `Open Source` + `Firebase.`
 
 <h2>O que esta plataforma contém:</h2>
 
@@ -34,7 +34,7 @@ prev: false
 Packs disponíveis em: &nbsp;`packs` na Plataforma:
 
 - Lite: `Next.js 15` + SaaS Boilerplate - base limpa para começar
-- Pro: Tudo do Lite + Stripe Checkout + Firebase Killer + liberação automática via Kiwify com `PRO_KEY` - `EM DESENVOLVIMENTO R$197`
+- Pro: Tudo do Lite + `Stripe Checkout` + `Firebase Killer` + liberação automática via Kiwify com `PRO_KEY` - `EM DESENVOLVIMENTO R$197`
 
 <h2>Packs Disponíveis:</h2>
 
@@ -46,7 +46,7 @@ Resolve:
 
 - Could not find public directory: dist/seu-app/browser
 - 404 on refresh nas rotas SPA
-- firebase.json com Frameworks source: "." + headers + cache 1 ano
+- `firebase.json` com Frameworks source: "." + headers + cache 1 ano
 - `Next.js 15` + `Tailwind v4` + `shadcn/ui` + `Firebase Hosting Frameworks`
 
 > Ideal para: Subir projeto hoje em 5 minutos e já começar SaaS em `Next.js 15.`
@@ -59,7 +59,7 @@ Entrega: Via `PRO_KEY` + &nbsp;`npm create domis@latest`
 
 <h3>💎 DomisPacks Pro - R$197 <code>EM DESENVOLVIMENTO</code></h3>
 
-> SaaS Completo `Next.js 15` `Em breve`
+> SaaS Completo `Next.js 15` - `Em breve`
 
 Tudo do Lite +
 
@@ -73,7 +73,6 @@ Tudo do Lite +
 
 [💎 Ver Roadmap do Pro →](/packs/domispacks-pro)
 
----
 
 <h2>Comparativo:</h2>
 
@@ -88,7 +87,6 @@ Tudo do Lite +
 | Headers Segurança HSTS                     | ✅         | ✅                |
 | Dashboard SaaS Premium                     | ❌         | ✅                |
 
----
 
 <h2>Como funciona a entrega:</h2>
 
@@ -99,8 +97,6 @@ Tudo do Lite +
 ```bash
 npm create domis@latest
 ```
-
----
 
 <h2>🛡 Garantia</h2>
 
