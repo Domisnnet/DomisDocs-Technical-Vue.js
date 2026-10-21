@@ -2,21 +2,21 @@
 title: DomisPacks Lite - Next.js 15 Starter
 description: Boilerplate Next.js 15 + SaaS Boilerplate
 next:
-  text: "💎 DomisDocs Pro - &nbsp;R$197 - Em Breve"
+  text: "💎 DomisDocs Pro - &nbsp; Em Breve"
   link: '/packs/domispacks-pro'
 prev:
   text: "Vitrine - &nbsp;Todos os Packs"
   link: '/packs/'
 ---
 
-::: info 🚀 LITE: &nbsp;NEXT.JS 15 STARTER → &nbsp;ENTREGA DIRETA VIA &nbsp;`PRO_KEY`
+::: info 🚀 LITE: &nbsp;NEXT.JS 15 STARTER → &nbsp;ENTREGA DIRETA VIA: &nbsp;`PRO_KEY`
 > `Next.js 15` + `SaaS Boilerplate.` 
 >
 > Deploy otimizado em 5 minutos.
 :::
 &nbsp;
 
-<h1>🚀 DomisPacks Lite - R$49</h1>
+<h1>🚀 DomisPacks Lite:</h1>
 
 - Fix em 5 minutos: `Could not find public directory` + `404 SPA` + Starter: `Next.js 15`
 
@@ -83,8 +83,8 @@ templates/domispacks-lite/
 
 <h4>Resolve:</h4>
 
-- Error: Could not find public directory
-- Error: 404 on refresh - página não encontrada ao dar F5
+- Error: `Could not find public directory`
+- Error: `404 on ` - página não encontrada ao dar F5
 
 <h2>Instalação - Referência Documental:</h2>
 
@@ -99,7 +99,7 @@ npm create domis@latest
 <h4>CLI faz :</h4>
 
 ```
-✔ DomisPacks Technical v1.0.55
+✔ DomisPacks Technical v1.0.56
 ✔ Qual pack você quer acelerar hoje?
 ```
 
@@ -166,7 +166,7 @@ Você paga na Kiwify e recebe sua `PRO_KEY` por e-mail na hora , junto com o ace
 
 <h2>Comparativo:</h2>
 
-| Recurso                                   | Lite R$49         |
+| Recurso:                                  | Lite:             |
 | :---------------------------------------- | :---------------- |
 | Fix public directory + 404 SPA            | ✅                |
 | `Next.js 15` + `Tailwind v4` + `shadcn/ui`| ✅ Starter        |
@@ -211,7 +211,7 @@ Você paga na Kiwify e recebe sua `PRO_KEY` por e-mail na hora , junto com o ace
         flex-wrap: wrap;"
       >
         <span style="font-weight: 700; font-size: 16px; color: #fff;">Rafael M.</span>
-        <span style="font-size: 13px; opacity: 0.6;">· Dev Front-end · São Paulo</span>
+        <span style="font-size: 13px; opacity: 0.6;">· Dev Front-End · São Paulo</span>
         <span style="margin-left: auto; color: #FFD700;">★★★★★</span>
       </div>
       <p style="
@@ -221,7 +221,8 @@ Você paga na Kiwify e recebe sua `PRO_KEY` por e-mail na hora , junto com o ace
         font-style: italic; 
         color: #e5e7eb;"
       >
-        "Tava há 2 dias travado no erro <code>Could not find public directory</code> no Next.js 15. Tentei de tudo no Stack Overflow. Comprei o Lite por R$49 achando que era gambiarra, mas é o <code>firebase.json</code> certo mesmo. Copiei, dei <code>npm run build</code> e <code>firebase deploy --only hosting</code> e subiu de primeira. Valeu cada centavo."
+        "Tava há 2 dias travado no erro de &nbsp;<code>Could not find public directory</code> &nbsp;
+        no <code>Next.js 15</code>. Tentei de tudo no Stack Overflow. Comprei o Lite achando que era gambiarra, mas é o <code>firebase.json</code> certo mesmo. Copiei, dei <code>npm run build</code> e <code>firebase deploy --only hosting</code> e subiu de primeira. Valeu cada centavo."
       </p>
       <div style="
         display: flex; 
@@ -255,21 +256,21 @@ Você paga na Kiwify e recebe sua `PRO_KEY` por e-mail na hora , junto com o ace
     font-size: 24px; 
     font-weight: 900; 
     margin-bottom: 8px;"
-  > 🔥 DOMISPACKS LITE - R$49</h3>
+  > 🔥 DomisPacks Lite:</h3>
   <p style="
     color: #FFD700 !important; 
     font-size: 16px; 
     font-weight: 700; 
     margin: 8px 0;"
-  > Fix Next.js 15 + Tailwind v4 + shadcn em 5 minutos</p>
+  > Fix Next.js 15 + Tailwind v4 + shadcn em 5 minutos.</p>
   <p style="
     color: #e5e7eb !important; 
     font-size: 14px; 
     margin: 12px 0;"
   >
-    ✅ CLI <code>npm create domis@latest</code> + <code>PRO_KEY</code><br/>
-    ✅ 6 meses de updates<br/>
-    ✅ Licença Comercial Private v1.03
+    ✅ CLI <code>npm create domis@latest</code> + <code>PRO_KEY.</code><br/>
+    ✅ 6 meses de updates disponível.<br/>
+    ✅ Licença: <code>Comercial Private v1.03.</code>
   </p>
   <a href="https://pay.kiwify.com.br/heAmetM" target="_blank" style="
     display: inline-block; 
@@ -288,15 +289,15 @@ Você paga na Kiwify e recebe sua `PRO_KEY` por e-mail na hora , junto com o ace
     font-size: 12px; 
     margin-top: 16px; 
     font-weight: 700;"
-  > ⚡ Entrega automática via PRO_KEY por e-mail após pagamento</p>
+  > ⚡ Entrega automática via: &nbsp;<code>PRO_KEY</code> &nbsp;por e-mail após pagamento.</p>
 </div>
 &nbsp;
 
 ::: tip Quer produção completa?
-Conheça o Pro R$197 - EM BREVE com `Rules` + `CI/CD` + `Stripe` + `Dashboard.` 
+Conheça o Pro - EM BREVE com: &nbsp;`Rules` + `CI/CD` + `Stripe` + `Dashboard.` 
 > Veja em [DomisPacks Pro →](/packs/domispacks-pro) &nbsp;`EM BREVE`
 :::
 
 <h2>🛡 Garantia</h2>
 
-> Todos os packs têm `7 dias de garantia incondicional` via Kiwify.
+> Todos os packs têm: `7 dias de garantia` via Kiwify.
