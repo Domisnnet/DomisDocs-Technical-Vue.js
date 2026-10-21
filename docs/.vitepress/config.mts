@@ -4,7 +4,10 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "DomisPacks",
   description: "Plataforma de Documentação Técnica — DomisDev | Guia: Angular 20 + Firebase Hosting",
-  head: [ ['link', { rel: 'icon', href: '/favicon.svg', type: 'images/svg+xml' }] ],
+  head: [ 
+    ['link', { rel: 'icon', href: '/favicon.ico', type: 'image/x-icon' }],
+    ['link', { rel: 'apple-touch-icon', href: '/premium-512.png', sizes: '512x512' }]
+  ],
   lang: 'pt-BR',
   base: '/',
   themeConfig: {
