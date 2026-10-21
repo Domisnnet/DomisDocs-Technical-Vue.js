@@ -9,36 +9,39 @@ prev:
   link: '/packs/domispacks-lite'
 ---
 
-::: info 💎 PRO: SAAS COMPLETO NEXT.JS 15 → &nbsp;R$197 `EM DESENVOLVIMENTO` ENTREGA DIRETA VIA PRO_KEY
-SaaS Boilerplate completo. Deploy seguro com regras validadas , `&nbsp;CI/CD`&nbsp; , `&nbsp;SSR`&nbsp; e `&nbsp;Stripe Checkout`&nbsp;. Inclui tudo do Lite + produção real. Status: Em desenvolvimento final - `&nbsp;getSignedUrl`&nbsp; 5min + POST only.
+::: info 💎 PRO: SAAS COMPLETO NEXT.JS 15 → &nbsp;`EM DESENVOLVIMENTO` &nbsp;ENTREGA DIRETA VIA: `PRO_KEY`
+SaaS Boilerplate completo , deploy seguro e validado , &nbsp;`CI/CD`&nbsp; , &nbsp;`SSR`&nbsp; e &nbsp;`Stripe Checkout.`&nbsp;<br> 
+Inclui tudo do Lite + produção real. Status: `Em desenvolvimento final`<br> 
+`getSignedUrl:` &nbsp;5min + POST only.
 :::
 
-<h1>💎 DomisPacks Pro - R$197 <code>EM DESENVOLVIMENTO</code></h1>
+<h1>💎 DomisPacks Pro:&nbsp;<code>EM DESENVOLVIMENTO</code></h1>
 
-> Do `npx create domis@latest` ao deploy em produção com regras seguras , `CI/CD` , `SSR` e `Stripe.` 
+> Do `npm create domis@latest` ao deploy em produção com regras seguras , `CI/CD` , `SSR` e `Stripe Checkout.` 
 >
 > O que empresas cobram R$2.000 para configurar.
 
-<h2>Referências:</h2>
+<h2>✨ Referências:</h2>
 
 > **Vitrine Pública:** `DomisDocs-Technical` - Documentação Open Source.
 >
-> **Entrega:** Direta via `PRO_KEY` + `npm create domis@latest` após pagamento na Kiwify. Status: `Em breve` - R$197.
+> **Entrega:** Direta via `PRO_KEY` + `npm create domis@latest` após pagamento na Kiwify. 
+Status: `EM BREVE.`
 
 <h2>Lite vs Pro - Referência Documental:</h2>
 
-| O que você precisa em produção | Lite R$49 | Pro R$197 Em Breve |
-| :--- | :---: | :--- |
-| Fix public directory + 404 SPA | ✅ | ✅ |
-| Cache 1 ano + Compressão | ✅ | ✅ |
-| `Next.js 15` + `Tailwind v4` + `shadcn` | ✅ Starter | ✅ SaaS Completo |
-| `firestore.rules` seguro (prod) | ❌ | ✅ avançada |
-| `storage.rules` seguro (prod) | ❌ | ✅ avançada |
-| `GitHub Actions` - Auto Deploy | ❌ | ✅ |
-| `Cloud Functions` - `kiwifyWebhook` , `verifyProKey` , `ping` | ❌ | ✅ Node 22 - getSignedUrl 5min|
-| `Stripe Checkout` + `Webhook` + Customer Portal | ❌ | ✅ |
-| Headers de Segurança HSTS, CSP | ✅ | ✅ |
-| Dashboard SaaS Premium | ❌ | ✅ |
+| O que você precisa em produção:                               | Lite: R$49 | Pro: R$197        |
+| :------------------------------------------------------------ | :--------: | :---------------- |
+| Fix public directory + 404 + Headers                          | ✅         | ✅               |
+| `Next.js 15` + `Tailwind v4` + `shadcn`                       | ✅         | ✅ SaaS Completo |
+| `firestore.rules` seguro                                      | ❌         | ✅ avançada      |
+| `storage.rules` seguro                                        | ❌         | ✅ avançada      |
+| `GitHub Actions` - Auto Deploy                                | ❌         | ✅               |
+| `Cloud Functions` - `kiwifyWebhook` , `verifyProKey` , `ping` | ❌         | ✅ Node 22       |
+| `Stripe Checkout` + `Webhook` + Customer Portal               | ❌         | ✅               |
+| Headers de Segurança: HSTS , CSP                              | ✅         | ✅               |
+| `Dashboard SaaS Premium`                                      | ❌         | ✅               |
+
 
 <h2>O que vem no Pro:</h2>
 
@@ -59,7 +62,7 @@ templates/domispacks-pro/
 ├── .github/workflows/deploy.yml → CI/CD Auto Deploy
 └── functions/ → Node 22 - Webhook Kiwify + verifyProKey POST only + getSignedUrl 5min
 ```
-> No Pack: Pro, são mais pastas disponíveis - `Dashboard Premium` , `lib Stripe` , etc.
+> No Pack: Pro , são mais pastas disponíveis - `Dashboard Premium` , `lib Stripe` , etc.
 
 <h3>Dashboard:</h3>
 
@@ -69,20 +72,21 @@ O Pro entrega o Dashboard SaaS com:
 - Cards: Projetos Ativos , Segurança 100% , Componentes 48 , Plano
 - Stack UI: `Next.js 15` + `Tailwind v4` + `lucide-react` + `shadcn/ui`
 
+
 <h2>Instalação:</h2>
 
-<h3>Fluxo de Uso:</h3>
+<h3>Fluxo de Uso</h3>
 
-- Cliente roda :
+- O cliente roda:
 
 ```bash
 npm create domis@latest
 ```
 
-<h3>CLI faz :</h3>
+<h4>CLI faz:</h4>
 
 ```
-✔ DomisPacks Technical v1.0.55
+✔ DomisPacks Technical v1.0.56
 ✔ Qual pack você quer acelerar hoje?
 ```
 
@@ -92,7 +96,7 @@ npm create domis@latest
 ✔ 🔥 DomisPacks Lite — Next.js 15 + SaaS
 ```
 
-<h4>O CLI valida a key, baixa o ZIP e monta a pasta:</h4>
+<h4>O CLI valida a key , baixa o ZIP e monta a pasta:</h4>
 
 - Cola a `PRO_KEY`
 - Define o nome do projeto
@@ -100,7 +104,7 @@ npm create domis@latest
 > Ou:
 
 ```
-✔ 🔥 DomisDocs PRO — Stripe + Rules
+✔ 🔥 DomisDocs PRO — Stripe + Rules - R$197 EM BREVE
 ```
 
 - Cola a `PRO_KEY`
@@ -112,13 +116,13 @@ npm create domis@latest
 ✔ Baixando...
 ```
 
-<h5>Crie um nome para o projeto</h5>
+<h5>Crie um nome para o projeto:</h5>
 
 ```bash
 👉 cd + nome do projeto
 ```
 
-<h5>Instale as dependências</h5>
+<h5>Instale as dependências:</h5>
 
 ```bash
 👉 npm install
@@ -129,13 +133,13 @@ npm create domis@latest
 👉 npm run dev
 ```
 
-<h5>Para fazer o Deploy do projeto</h5>
+<h5>Para fazer o Deploy do projeto:</h5>
 
 ```bash
 👉 firebase deploy --only hosting
 ```
 
-<h5>Para fazer o Deploy das functions</h5>
+<h5>Para fazer o Deploy das functions:</h5>
 
 ```bash
 👉 firebase deploy --only functions
@@ -149,17 +153,17 @@ npm create domis@latest
 
 <h2>Regras Seguras - Documentação:</h2>
 
-O Pro segue Firebase Security Checklist Oficial:
+- O Pro segue Firebase Security Checklist Oficial:
 
 ```bash
-- Nenhum allow read, write: if true
+- Nenhum allow read , write: if true
 - request.auth != null em tudo privado
 - request.auth.uid == resource.data.ownerId
 - request.resource.size < 5MB no Storage
 - Validação MIME type
 ```
 
-Teste local:
+<h4>Teste local:</h4>
 
 ```bash
 firebase emulators:start --only firestore,storage
@@ -168,22 +172,22 @@ firebase emulators:start --only firestore,storage
 <h2>FAQ:</h2>
 
 ::: details Preciso do Lite antes ❓
-Não. O Pro já inclui tudo do Lite. Lite é porta de entrada. Se vai para produção com cliente, vá direto de Pro R$197.
+Não. O Pro já inclui tudo do Lite. Lite é porta de entrada. Se vai para produção com cliente, vá direto de Pro.
 :::
 
 ::: details Funciona com Angular Universal SSR ❓
-Sim. A pasta functions/ já vem com adapter Angular Universal. No README_PRO.md tem ng add @angular/ssr. No Next.Js 15 SSR já vem configurado.
+Sim. A pasta functions já vem com adapter Angular Universal. E tem ng add `@angular/ssr.` No: `Next.Js 15` , o `SSR` já vem configurado.
 :::
 
 ::: details As Rules são seguras mesmo ❓
-Sim. Seguem checklist oficial Firebase. Nenhum if true. Teste com emulators antes. O Pro já vem com avançada.
+Sim. Seguem checklist oficial Firebase. Nenhum if true. Teste com emulators antes. O Pro já vem com Rules avançada.
 :::
 
 ::: details Cliente já tem projeto Firebase ❓
-Perfeito. O Pro não cria projeto novo, só injeta .rules e firebase.json otimizado com source: "." + headers. Roda firebase deploy e pronto.
+Perfeito. O Pro não cria projeto novo, só injeta `.rules` e `firebase.json` otimizado com source: "." + headers. Roda firebase deploy e pronto.
 :::
 
-<h2>💎 Comprar DomisPacks Pro - R$197 <code>EM DESENVOLVIMENTO</code></h2>
+<h2>💎 Comprar DomisPacks Pro:&nbsp;<code>EM DESENVOLVIMENTO</code></h2>
 
 <div style="
   margin: 24px 0; 
@@ -200,21 +204,21 @@ Perfeito. O Pro não cria projeto novo, só injeta .rules e firebase.json otimiz
     font-size: 24px; 
     font-weight: 900; 
     margin-bottom: 8px;"
-  > 💎 DOMISPACKS PRO - R$197 - EM DESENVOLVIMENTO</h3>
+  > 💎 DOMISPACKS PRO - EM DESENVOLVIMENTO</h3>
   <p style="
     color: #9ca3af !important; 
     font-size: 16px; 
     font-weight: 700; 
     margin: 8px 0;"
-  > Produção Completa - Em breve</p>
+  > Produção Completa - <code>EM BREVE</code></p>
   <p style="
     color: #e5e7eb !important; 
     font-size: 14px; 
     margin: 12px 0;"
   >
-    ✅ Tudo do Lite + Rules avançadas + Hosting Frameworks + CI/CD + SSR<br/>
-    ✅ Template Enterprise pronto pra cliente + Dashboard Premium<br/>
-    ✅ 6 meses updates + getSignedUrl 5min + POST only
+    ✅ Tudo do Lite + <code>Rules avançadas</code> + <code>Hosting Frameworks</code> + <code>CI/CD</code> + <code>SSR</code><br/>
+    ✅ Template Enterprise pronto pra cliente + <code>Dashboard Premium</code><br/>
+    ✅ 6 meses updates + <code>getSignedUrl 5min</code> + <code>POST only</code>
   </p>
   <button disabled style="
     display: inline-block; 
@@ -227,17 +231,17 @@ Perfeito. O Pro não cria projeto novo, só injeta .rules e firebase.json otimiz
     border-radius: 12px; 
     border: none; 
     cursor: not-allowed;"
-  > 🔒 PRO EM BREVE - R$197 - AGUARDE</button>
+  > 🔒 PRO: EM BREVE - R$197</button>
   <p style="
     color: #9ca3af !important; 
     font-size: 12px; 
     margin-top: 12px;"
-  > 📦 Botão desabilitado até finalizar <code>Stripe</code> + <code>Functions Node 22</code> - getSignedUrl 5min
+  > 📦 Botão desabilitado até finalizar <code>Stripe</code> + <code>Functions: Node 22</code> , &nbsp;<code>getSignedUrl 5min</code>
   </p>
 </div>
 
 ::: tip Já comprou o Lite?
-> Envie comprovante do Lite e ganhe cupom de R$49 OFF. Paga só a diferença para o Pro R$197.
+> Envie comprovante do Lite e ganhe cupom de R$49 OFF. Paga só a diferença para o Pro.
 :::
 
 <h2>🛡 Garantia</h2>
