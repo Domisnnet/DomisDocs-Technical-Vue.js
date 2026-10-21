@@ -7,7 +7,10 @@
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "deploy": "npm run docs:build && firebase deploy --only hosting --project domisdocs-6a896",
+    "deploy:docs": "npm run docs:build && firebase deploy --only hosting --project domisdocs-6a896",
+    "deploy:check": "firebase projects:list"
   },
   "version": "0.0.1",
   "dependencies": { "@octokit/rest": "^22.0.1" }
