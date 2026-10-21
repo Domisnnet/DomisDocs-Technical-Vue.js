@@ -15,7 +15,7 @@ prev: false
 > Stack: &nbsp;Next.js 15 + Tailwind v4 + shadcn/ui + Firebase.
 :::
 
-<h1>🛒 Packs Premium - Next.js 15 + SaaS Boilerplate</h1>
+<h1>🛒 Packs Premium - <code>Next.js 15</code> + SaaS Boilerplate</h1>
 
 > **Vitrine Pública:** &nbsp;`DomisDocs-Technical` → &nbsp;Documentação `Open Source` + `Firebase.`
 
