@@ -3,14 +3,14 @@ title: DomisPacks Lite - Next.js 15 Starter
 description: Boilerplate Next.js 15 + SaaS Boilerplate
 next:
   text: "💎 DomisDocs Pro - &nbsp;R$197 - Em Breve"
-  link: "/packs/domispacks-pro"
+  link: '/packs/domispacks-pro'
 prev:
   text: "Vitrine - &nbsp;Todos os Packs"
-  link: "/packs/"
+  link: '/packs/'
 ---
 
-::: info 🚀 LITE: NEXT.JS 15 STARTER → &nbsp;ENTREGA DIRETA VIA `PRO_KEY`
-> `Next.js 15` + SaaS Boilerplate. 
+::: info 🚀 LITE: &nbsp;NEXT.JS 15 STARTER → &nbsp;ENTREGA DIRETA VIA &nbsp;`PRO_KEY`
+> `Next.js 15` + `SaaS Boilerplate.` 
 >
 > Deploy otimizado em 5 minutos.
 :::
@@ -18,11 +18,11 @@ prev:
 
 <h1>🚀 DomisPacks Lite - R$49</h1>
 
-- Fix em 5 minutos para `Could not find public directory` + `404 SPA` + Starter `Next.js 15` pronto.
+- Fix em 5 minutos: `Could not find public directory` + `404 SPA` + Starter: `Next.js 15`
 
 <h2>Referências:</h2>
 
-> **Vitrine Pública:** &nbsp;`DomisDocs-Technical` - Documentação Open Source.
+> **Vitrine Pública:** &nbsp;`DomisDocs-Technical` - Documentação `Open Source.`
 >
 > **Entrega:** Direta via `PRO_KEY` + &nbsp;`npm create domis@latest` após pagamento na Kiwify.
 
@@ -35,7 +35,7 @@ prev:
 - `Next.js 15` + `App Router` + `Turbopack`
 - `Tailwind v4` + `shadcn/ui`
 - `Firebase Hosting` Frameworks + `firebase.json` otimizado
-- Headers otimizados - sem `rewrites SPA`
+- Headers otimizados - sem `rewrites SPA` - Frameworks source: "."
 
 <h3>O que vem no Lite?</h3>
 
@@ -46,7 +46,7 @@ templates/domispacks-lite/
 │   ├── components/
 │   ├── lib/
 │   └── assets/
-├── firebase.json → Frameworks - source: "." + headers
+├── firebase.json → Frameworks - source: "." + headers - sem rewrites SPA
 ├── .firebaserc
 ├── next.config.ts  → otimizado Firebase
 ├── postcss.config.mjs  → v4 configurado
@@ -63,7 +63,9 @@ templates/domispacks-lite/
     "headers": [
       {
         "source": "**/*.@(js|css|woff2|png|jpg|jpeg|gif|svg|webp|ico)",
-        "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+        "headers": [
+          { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+        ]
       },
       {
         "source": "**",
@@ -84,18 +86,17 @@ templates/domispacks-lite/
 - Error: Could not find public directory
 - Error: 404 on refresh - página não encontrada ao dar F5
 
-
 <h2>Instalação - Referência Documental:</h2>
 
 <h3>Fluxo de Uso:</h3>
 
-- Cliente roda :
+- O cliente roda :
 
 ```bash
 npm create domis@latest
 ```
 
-<h3>CLI faz :</h3>
+<h4>CLI faz :</h4>
 
 ```
 ✔ DomisPacks Technical v1.0.55
@@ -113,7 +114,7 @@ npm create domis@latest
 - Cola a `PRO_KEY`
 - Define o nome do projeto
 
-<h3>Depois:</h3>
+<h4>Depois:</h4>
 
 ```
 ✔ Baixando...
@@ -142,10 +143,10 @@ npm create domis@latest
 👉 firebase deploy --only hosting
 ```
 
-<h2>FAQ - Lite</h2>
+<h2>FAQ:</h2>
 
 ::: details Funciona no `Next.js 15` com `App Router` ❓
-Sim. Validado no `Next.js 15` com `App Router` + `Turbopack`&nbsp;. O `firebase.json` já vem com source: "." para Frameworks.
+Sim. Validado no `Next.js 15` com `App Router` + `Turbopack`&nbsp;. O `firebase.json` já vem com source: "." para Frameworks - sem rewrites SPA.
 :::
 
 ::: details Como recebo o acesso ❓
@@ -159,8 +160,8 @@ Você paga na Kiwify e recebe sua `PRO_KEY` por e-mail na hora , junto com o ace
 :::
 
 ::: details Qual a diferença para o Pro ❓
-- Lite = `Next.js 15` Starter + deploy otimizado: `firebase.json` + `rewrites`. 
-- Pro = Lite + `firestore.rules` + `storage.rules` + `CI/CD` + `Stripe` + `Kiwify Webhook` + `Dashboard SaaS`
+- Lite = `Next.js 15` Starter + deploy otimizado: `firebase.json` com `source: "."` Frameworks + `headers` otimizados (sem rewrites SPA).
+- Pro = Lite + `firestore.rules` segura avançada + `storage.rules` 5MB + MIME + `CI/CD` + `Stripe` + `Kiwify Webhook` + `Dashboard SaaS`
 :::
 
 <h2>Comparativo:</h2>
@@ -173,6 +174,7 @@ Você paga na Kiwify e recebe sua `PRO_KEY` por e-mail na hora , junto com o ace
 | `storage.rules`                           | ❌                |
 | `GitHub Actions`                          | ❌                |
 | `Functions` + `Stripe`                    | ❌                |
+
 
 <h2>💬 O que quem comprou está dizendo:</h2>
 
@@ -237,7 +239,7 @@ Você paga na Kiwify e recebe sua `PRO_KEY` por e-mail na hora , junto com o ace
   </div>
 </div>
 
-<h2>🛒 Comprar DomisPacks Lite - R$49</h2>
+<h2>🛒 Comprar - DomisPacks Lite:</h2>
 
 <div style="
   margin: 24px 0; 
@@ -265,9 +267,9 @@ Você paga na Kiwify e recebe sua `PRO_KEY` por e-mail na hora , junto com o ace
     font-size: 14px; 
     margin: 12px 0;"
   >
-    ✅ CLI <code>npm create domis@latest</code> + PRO_KEY<br/>
+    ✅ CLI <code>npm create domis@latest</code> + <code>PRO_KEY</code><br/>
     ✅ 6 meses de updates<br/>
-    ✅ Licença Comercial Privada v1.03
+    ✅ Licença Comercial Private v1.03
   </p>
   <a href="https://pay.kiwify.com.br/heAmetM" target="_blank" style="
     display: inline-block; 
@@ -286,13 +288,13 @@ Você paga na Kiwify e recebe sua `PRO_KEY` por e-mail na hora , junto com o ace
     font-size: 12px; 
     margin-top: 16px; 
     font-weight: 700;"
-  > ⚡️ Entrega automática via PRO_KEY por e-mail após pagamento</p>
+  > ⚡ Entrega automática via PRO_KEY por e-mail após pagamento</p>
 </div>
 &nbsp;
 
 ::: tip Quer produção completa?
 Conheça o Pro R$197 - EM BREVE com `Rules` + `CI/CD` + `Stripe` + `Dashboard.` 
-> Veja em [DomisPacks Pro →](/packs/domispacks-pro)
+> Veja em [DomisPacks Pro →](/packs/domispacks-pro) &nbsp;`EM BREVE`
 :::
 
 <h2>🛡 Garantia</h2>
