@@ -1,7 +1,7 @@
 ![Repo Size](https://img.shields.io/github/repo-size/Domisnnet/DomisDocs-Technical-Vue.js?style=flat&label=REPO%20SIZE&labelColor=2d333b&color=0969da)
 ![Stars](https://img.shields.io/github/stars/Domisnnet/DomisDocs-Technical-Vue.js?style=flat&label=STARS&labelColor=2d333b&color=0969da)
 ![Last Commit](https://img.shields.io/github/last-commit/Domisnnet/DomisDocs-Technical-Vue.js?style=flat&label=LAST%20COMMIT&labelColor=2d333b&color=2ea44f)
-![Version](https://img.shields.io/github/package-json/v/Domisnnet/DomisDocs-Technical-Vue.js?style=flat&label=VERSION&labelColor=2d333b&color=0969da&logo=viteprees&logoColor=white)
+![Version](https://img.shields.io/github/package-json/v/Domisnnet/DomisDocs-Technical-Vue.js?style=for-the-badge&label=VERSION&labelColor=2d333b&color=4FC08D&logo=vue.js&logoColor=fff)
 
 <h1 id="domisdocs">🚀 DomisDocs : Documentação Técnica + DomisPacks</h1>
 
