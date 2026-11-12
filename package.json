@@ -12,6 +12,6 @@
     "deploy:docs": "npm run docs:build && firebase deploy --only hosting --project domisdocs-6a896",
     "deploy:check": "firebase projects:list"
   },
-  "version": "0.0.1",
+  "version": "1.0.0",
   "dependencies": { "@octokit/rest": "^22.0.1" }
 }
