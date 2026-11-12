@@ -5,7 +5,7 @@
 
 <h1 id="domisdocs">🚀 DomisDocs : Documentação Técnica + DomisPacks</h1>
 
-![Status](https://img.shields.io/badge/Status-Documentação_Pública-4CAF50?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Online-4CAF50?style=flat-square)
 ![Angular](https://img.shields.io/badge/Angular-20-DD0031?style=flat-square&logo=angular&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-15-black?style=flat-square&logo=next.js&logoColor=white)
 ![Tailwind V4](https://img.shields.io/badge/Tailwind-v4-38BDF8?style=flat-square&logo=tailwindcss&logoColor=white)
